@@ -49,56 +49,84 @@ export const CORE_SERVICES = [
     id: "software-dev",
     title: "Custom Software Design & Development",
     subtitle: "End-to-End Product Engineering",
-    description: "From architecture and user interface design to full-scale deployment. We engineer robust web systems, progressive web applications, and mobile solutions tailored for Kenyan commerce and international standards.",
+    description: "From conceptual UI/UX wireframing to enterprise delivery. We build robust web systems, progressive web apps, and native mobile applications using Vue.js, React, TypeScript, and modern component systems.",
     icon: "Code2",
     highlight: "Vue, React, TypeScript",
     capabilities: [
-      "Custom Frontend Architecture (Vue.js, React, Tailwind CSS)",
-      "High-Fidelity UI/UX & Responsive Systems",
+      "Intuitive UI/UX Systems & Responsive Architecture",
+      "Progressive Web Apps (PWAs) & Mobile Interfaces",
       "E-Commerce, Marketplace & PropTech Platforms",
-      "API Design & Secure Client-Side Systems"
-    ]
-  },
-  {
-    id: "whatsapp-solutions",
-    title: "Enterprise WhatsApp Business Automation",
-    subtitle: "Conversational Workflows & Notifications",
-    description: "Automated business messaging for customer service, instant billing receipts, payment reminders, and order tracking directly via WhatsApp. Designed for seamless customer interaction across Kenya.",
-    icon: "MessageSquare",
-    highlight: "High Engagement Automation",
-    capabilities: [
-      "Automated Payment & Rent Receipts via WhatsApp",
-      "Real-Time Inquiry Bots & Property Discovery",
-      "Customer Billing Reminders & Status Alerts",
-      "Strict Opt-In & Privacy-Compliant Workflows"
+      "Clean TypeScript & Secure Frontend Codebases"
     ]
   },
   {
     id: "cloudflare-edge",
-    title: "Cloudflare Serverless & Edge Engineering",
-    subtitle: "Zero-Backend Overhead, Blazing Fast",
-    description: "Lightning-fast edge computing powered by Cloudflare's global CDN network. We deliver sub-10ms response times for Kenyan users, ironclad DDoS protection, and 99.99% uptime with zero server maintenance.",
+    title: "Cloudflare Edge & Serverless Architecture",
+    subtitle: "Sub-10ms Global Delivery & Zero Server Lag",
+    description: "Specialized engineering on Cloudflare's 300+ city edge network. We design serverless Workers, Cloudflare Pages, edge caching, and DDoS mitigation for lightning-fast speeds without bulky server maintenance.",
     icon: "CloudLightning",
-    highlight: "100% Serverless Edge",
+    highlight: "Cloudflare Specialist",
     capabilities: [
-      "Static Web Apps on Cloudflare Pages & Workers",
-      "Ultra-Low Latency for Kenyan Mobile Devices",
-      "Automated SSL/TLS Security & DDoS Mitigation",
-      "Zero Expensive Server Upkeep or Database Vulnerabilities"
+      "Cloudflare Workers & Cloudflare Pages Deployments",
+      "Zero-Backend Architecture with High Edge Caching",
+      "Automated SSL/TLS Security & DDoS Shielding",
+      "Sub-10ms Response Times for African Mobile Users"
+    ]
+  },
+  {
+    id: "google-cloud",
+    title: "Google Cloud Run & Cloud Firestore",
+    subtitle: "Elastic Serverless Containers & Real-Time Data",
+    description: "Expert implementation of Google Cloud services. We deploy scalable containerized microservices on Google Cloud Run and architect low-latency NoSQL databases with Google Cloud Firestore.",
+    icon: "Server",
+    highlight: "GCP Expert",
+    capabilities: [
+      "Google Cloud Run Containerized Microservices",
+      "Google Cloud Firestore Real-Time Sync & Security Rules",
+      "Automated Autoscaling from 0 to Millions of Requests",
+      "Google Cloud IAM & Enterprise Data Protection"
+    ]
+  },
+  {
+    id: "azure-cloud",
+    title: "Microsoft Azure & Cosmos DB Solutions",
+    subtitle: "Mission-Critical Cloud & Multi-Model DBs",
+    description: "Enterprise cloud solutions with Microsoft Azure. We architect globally distributed, multi-model databases on Azure Cosmos DB for mission-critical applications demanding single-digit millisecond latency.",
+    icon: "Database",
+    highlight: "Azure Specialist",
+    capabilities: [
+      "Azure Cosmos DB Multi-Region Data Distribution",
+      "Azure App Services & Serverless Functions",
+      "Enterprise SLA Guarantees & Disaster Recovery",
+      "High Availability & Multi-Tenant Partitioning"
+    ]
+  },
+  {
+    id: "api-integrations",
+    title: "Enterprise API & Messaging Integrations",
+    subtitle: "WhatsApp, Payment Gateways & Webhooks",
+    description: "Connecting business systems with external APIs. As part of our integration suite, we build WhatsApp Business automation for digital receipt delivery and billing alerts, alongside Safaricom M-Pesa STK push and banking APIs.",
+    icon: "Workflow",
+    highlight: "Multi-API Integrator",
+    capabilities: [
+      "WhatsApp Business API Integration for Invoices & Receipts",
+      "Safaricom M-Pesa Daraja STK Push & Webhook Listeners",
+      "Custom RESTful & GraphQL API Gateway Development",
+      "Strict Opt-In & Privacy-Compliant Notification Flows"
     ]
   },
   {
     id: "system-maintenance",
     title: "Software Maintenance & 24/7 SLA Support",
-    subtitle: "Continuous Health, Security & Reliability",
-    description: "Ongoing technical maintenance, vulnerability assessments, performance tuning, and guaranteed SLA uptime support for business-critical software systems and public marketplaces.",
+    subtitle: "Continuous Health, Audits & Uptime",
+    description: "Ongoing technical maintenance, vulnerability patching, database optimization, and guaranteed uptime monitoring for mission-critical client software and public marketplaces.",
     icon: "ShieldCheck",
-    highlight: "Continuous Monitoring",
+    highlight: "24/7 Reliability",
     capabilities: [
-      "Regular Codebase Upgrades & Dependency Auditing",
-      "Mobile Performance & Core Web Vitals Optimization",
-      "System Disaster Recovery & Data Integrity",
-      "Direct Priority Support Hotline for Businesses"
+      "Regular Security & Dependency Auditing",
+      "Core Web Vitals & Mobile Performance Tuning",
+      "Data Integrity Checks & Automated Backups",
+      "Direct Developer Priority Hotline"
     ]
   }
 ];

@@ -64,10 +64,10 @@ export const AboutCeo: React.FC = () => {
 
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800/80">
                 <p className="text-xs text-slate-400 italic">
-                  "Our core ambition is simple: eradicate rent exploitation, democratize digital receipts for every landlord, and power Kenyan businesses with WhatsApp conversational automation."
+                  "Our core ambition is simple: eradicate rental friction through Housika, engineer resilient multi-cloud architecture for businesses, and deliver digital systems that scale without boundaries."
                 </p>
                 <span className="block text-[11px] font-bold text-slate-300 mt-2 text-right">
-                  &mdash; Movin Juma, Founder
+                  &mdash; Movin Juma, Founder & CEO
                 </span>
               </div>
             </div>
@@ -75,17 +75,17 @@ export const AboutCeo: React.FC = () => {
 
           {/* Company Story & Vision */}
           <div className="lg:col-span-7 space-y-6">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-semibold">
               <UserCheck className="w-4 h-4" />
               About Pansoft Technologies
             </div>
 
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-              Rooted in Bungoma, Engineering Software for Kenya and Beyond
+              Rooted in Bungoma, Engineering Cloud Software for Kenya and Beyond
             </h2>
 
             <p className="text-slate-300 text-base leading-relaxed">
-              Founded by <strong className="text-white">Movin Juma</strong>, Pansoft Technologies was established in Bungoma, Western Kenya (P.O. Box 50200), with a sharp mission: to bridge the gap between high-end software engineering and everyday commerce.
+              Founded by <strong className="text-white">Movin Juma</strong>, Pansoft Technologies was established in Bungoma, Western Kenya (P.O. Box 50200), with a sharp mission: to bridge the gap between high-end software engineering, modern cloud architecture, and everyday commerce.
             </p>
 
             <p className="text-slate-300 text-sm leading-relaxed">
@@ -95,19 +95,19 @@ export const AboutCeo: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
               <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
                 <div className="text-lg font-bold text-white mb-1">
-                  100% Zero-Backend First
+                  Multi-Cloud & Edge Architecture
                 </div>
                 <p className="text-xs text-slate-400">
-                  Leveraging modern Cloudflare Workers and static edge networks for lightning-fast speeds and bulletproof security without expensive server maintenance.
+                  Deploying on Cloudflare Workers, Google Cloud Run & Firestore, and Azure Cosmos DB for ultra-fast performance, zero cold starts, and rock-solid availability.
                 </p>
               </div>
 
               <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
                 <div className="text-lg font-bold text-white mb-1">
-                  Real Estate Equity
+                  PropTech & Community Equity
                 </div>
                 <p className="text-xs text-slate-400">
-                  Zero commission extraction from tenants or landlords. We charge only transparent listing & booking fees.
+                  Zero commission extraction from tenants or landlords. Transparent flat listing and booking fees powering honest property trade.
                 </p>
               </div>
             </div>
